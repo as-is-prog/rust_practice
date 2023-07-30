@@ -4,7 +4,7 @@ pub fn shiftup_main() {
     let mut holydays = Vec::<i32>::new();
 
     loop {
-        io::println_str("Input requset holydays(exit non input.): ").unwrap();
+        io::println_str("Input request holydays(exit non input.): ").unwrap();
 
         match io::read_i32() {
             Ok(n) => holydays.push(n),
